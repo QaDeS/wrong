@@ -193,9 +193,9 @@ This makes your code read like a BDD-style DSL, without RSpec's arcane "should" 
 
  to
  
-    BleuCheese.new.smell.should > 9000
+    BlueCheese.new.smell.should be > 9000
 
-and seriously, tell me which one more clearly describes the desired behavior. The object under test doesn't really have a `should` method, so why should it magically get one during a test? And in what human language is "should greater than" a valid phrase?
+and seriously, tell me which one more clearly describes the desired behavior. The object under test doesn't really have a `should` method, so why should it magically get one during a test?
 
 ## Algorithm ##
 
